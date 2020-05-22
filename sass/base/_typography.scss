@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("./assets/fonts/Oswald-Regular.ttf");
+    src: url("./assets/fonts/Oswald-Regular.ttf") format("ttf"),
+        url("./assets/fonts/Oswald-Regular.ttf") format("truetype");
+}
+
+.header-hero {
+    color: white;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 7em;
+    @media (max-width: 575.98px) {
+        font-size: 4.5em;
+    }
+}
+.p {
+    &-big {
+        font-size: 1.6em;
+    }
+    &-medium{
+        font-size: 1.3em;
+    }
+}

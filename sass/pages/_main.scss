@@ -1,0 +1,51 @@
+.background {
+    height: 100vh;
+    background-image: url(../assets/pictures/art.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    &-title {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5rem;
+        background-color: rgba(0, 0, 0, 0.7);
+        @media (max-width: 575.98px) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+.footer {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-text {
+        font-size: 1.4em;
+        text-transform: uppercase;
+        font-family: "Oswald";
+        color: white;
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.design {
+    transition: all 0.3s;
+    &:hover {
+        transform: translateY(-8px);
+    }
+}
+.bi {
+    transition: all 0.2s;
+    &:hover {
+        transform: scale(1.5);
+    }
+}
